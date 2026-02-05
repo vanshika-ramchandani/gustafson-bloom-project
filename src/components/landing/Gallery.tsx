@@ -7,10 +7,10 @@ import birthdayBouquet from "@/assets/birthday-bouquet.jpg";
 import weddingFlorals from "@/assets/wedding-florals.jpg";
 
 const galleryImages = [
-  { src: galleryArranging, alt: "Florist arranging flowers", span: "md:col-span-1 md:row-span-2" },
+  { src: galleryArranging, alt: "Florist arranging flowers", span: "md:col-span-1" },
   { src: galleryShop, alt: "Our flower shop", span: "md:col-span-1" },
   { src: galleryWrapped, alt: "Wrapped bouquet", span: "md:col-span-1" },
-  { src: galleryCenterpiece, alt: "Table centerpiece", span: "md:col-span-1 md:row-span-2" },
+  { src: galleryCenterpiece, alt: "Table centerpiece", span: "md:col-span-1" },
   { src: birthdayBouquet, alt: "Birthday bouquet", span: "md:col-span-1" },
   { src: weddingFlorals, alt: "Wedding florals", span: "md:col-span-1" },
 ];

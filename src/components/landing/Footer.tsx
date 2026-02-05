@@ -86,17 +86,17 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-primary-foreground/70">
-                  123 Blossom Lane<br />
-                  Garden City, NY 10001
+                  2050 Horsecreek Rd, Oil City<br />
+                  PA, United States, 16301
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+18146762453"
                   className="text-primary-foreground/70 hover:text-primary transition-colors duration-300"
                 >
-                  (555) 123-4567
+                +1 814-676-2453
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -105,7 +105,7 @@ const Footer = () => {
                   href="mailto:hello@gustafsonfloral.com"
                   className="text-primary-foreground/70 hover:text-primary transition-colors duration-300"
                 >
-                  hello@gustafsonfloral.com
+                  gustafsonfloral@gmail.com
                 </a>
               </li>
             </ul>

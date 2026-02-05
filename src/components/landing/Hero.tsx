@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Beautiful floral arrangement"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/40 to-background" />
       </div>
 
       {/* Content */}
@@ -41,7 +41,8 @@ const Hero = () => {
             className="font-heading text-5xl md:text-6xl lg:text-7xl text-foreground mb-6 leading-tight drop-shadow-sm"
           >
             Flowers That Speak{" "}
-            <span className="italic text-primary block md:inline">From the Heart</span>
+            <span className="italic block md:inline">From the </span>
+            <span className="italic text-primary block md:inline">Heart</span>
           </motion.h1>
           
           <motion.p
